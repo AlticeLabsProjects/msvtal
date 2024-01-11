@@ -1,0 +1,9 @@
+[[container.copy.files]]
+sourceFile="Config.toml"
+target="/home/ballerina/Config.toml"
+[[container.copy.files]]
+sourceFile="./lib/wlthint3client.jar"
+target="/home/ballerina/lib/wlthint3client.jar"
+
+[container.image]
+tag="v1.0.16"

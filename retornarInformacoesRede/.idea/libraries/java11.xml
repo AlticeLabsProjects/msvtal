@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="java11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/cache/OpenLabs/retornarInformacoesRede/0.1.0/java11/OpenLabs-retornarInformacoesRede-0.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/cache/OpenLabs/retornarInformacoesRede/0.1.0/java11/OpenLabs-retornarInformacoesRede.FFOne-0.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/cache/OpenLabs/retornarInformacoesRede/0.1.0/java11/OpenLabs-retornarInformacoesRede.logic-0.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/cache/OpenLabs/retornarInformacoesRede/0.1.0/java11/OpenLabs-retornarInformacoesRede.NetQ-0.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/cache/OpenLabs/retornarInformacoesRede/0.1.0/java11/OpenLabs-retornarInformacoesRede.SIS-0.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/cache/OpenLabs/retornarInformacoesRede/0.1.0/java11/OpenLabs-retornarInformacoesRede.Logstash-0.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

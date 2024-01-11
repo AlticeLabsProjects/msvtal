@@ -1,0 +1,9 @@
+[[container.copy.files]]
+sourceFile="Config.toml"
+target="/home/ballerina/Config.toml"
+[[container.copy.files]]
+sourceFile="./certs/_.aws.vtal.crt"
+target="/home/ballerina/certs/_.aws.vtal.crt"
+
+[container.image]
+tag="v1.0.59"

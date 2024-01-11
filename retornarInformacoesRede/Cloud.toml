@@ -1,0 +1,6 @@
+[[container.copy.files]]
+sourceFile="Config.toml"
+target="/home/ballerina/Config.toml"
+
+[container.image]
+tag="v1.0.66"

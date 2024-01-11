@@ -1,0 +1,11 @@
+[retornarAprovisionamentoRede.SOM]
+jmsEndpoints = [ 
+    "JMS_Server_RecursoAprovisionamento_osbti1aa/JMS_Modulo_RecursoAprovisionamento!JMS_Server_RecursoAprovisionamento_osbti1aa@Q_NotificarAprovisionamentoRede_SOM_MS_Out",
+    "JMS_Server_RecursoAprovisionamento_osbti1aa/JMS_Modulo_RecursoAprovisionamento!JMS_Server_RecursoAprovisionamento_osbti1aa@Q_NotificarAprovisionamentoRede_SOM_MS_Out"
+]
+acknowledgementMode = "AUTO_ACKNOWLEDGE"
+
+[retornarAprovisionamentoRede.SOM.connectionConfiguration]
+providerUrl = "t3://OCSHX04.interno:7203"
+connectionFactoryName = "CF_RecursoAprovisionamento"
+initialContextFactory = "weblogic.jndi.WLInitialContextFactory"

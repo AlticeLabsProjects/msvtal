@@ -1,0 +1,37 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"/>
+ <soapenv:Body>
+ <v11:SolicitarInformacoesRedeRequest
+xmlns:v1="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Messaging/v1"
+xmlns:v11="http://www.oi.net.br/GestaoRecurso/solicitarInformacoesRede/v1">
+ <v1:MessageHeader>
+ <v1:TransactionId>OA0850:SOA0392V1.0:20230802144441488:000:0000000000000000000000000</v1:TransactionId>
+ <v1:Timestamp>2023-08-02T14:44:41.488</v1:Timestamp>
+ <v1:Credentials>
+ <v1:AppId>OA0850</v1:AppId>
+ </v1:Credentials>
+ </v1:MessageHeader>
+ <v11:idNetq>996a278c-9a71-46e6-83d7-7f80e47a21a9</v11:idNetq>
+ <v11:prioridade>7</v11:prioridade>
+ <v11:operation>GPON_ESTADO_ONT</v11:operation>
+ <v11:request>
+ <![CDATA[
+ <Parameters>
+ <Parameter name="LINE_ID" value="RJ-BOT01-GALC GPON 1/1/03/07/9/1/1" />
+ <Parameter name="RACK" value="1" />
+ <Parameter name="VERSION" value="5.7" />
+ <Parameter name="SLOT" value="1" />
+ <Parameter name="VENDOR" value="ALCATEL" />
+ <Parameter name="SHELF" value="1" />
+ <Parameter name="MODEL" value="ISAM-7360-FX" />
+ <Parameter name="ONTID" value="3" />
+ <Parameter name="PON" value="14" />
+ <Parameter name="COMPANY_ID" value="Oi" />
+ <Parameter name="OLT_NAME" value="RJ-VITE01-GALC" />
+ </Parameters>]]>
+ </v11:request>
+ <v11:url>http://netqoi-tst.c.ptin.corppt.com:9091/sis/response</v11:url>
+ <v11:timeoutInSeconds>60000</v11:timeoutInSeconds>
+ </v11:SolicitarInformacoesRedeRequest>
+ </soapenv:Body>
+</soapenv:Envelope>
